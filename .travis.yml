@@ -6,4 +6,4 @@ before_install:
   - docker build -t yokunev/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run yokunev/docker-react nmp run test -- --coverage
+  - docker run yokunev/docker-react npm run test -- --coverage
